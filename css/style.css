@@ -83,44 +83,53 @@ nav.top .btn{
   padding-top: 90px;
   padding: 20px;
 }
-
-.row{
-  border: 1px solid red;
+h1{
+  padding: 10px;
+}
+.row-release{
   height: 280px;
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 .card{
   width: 190px;
   height: 280px;
   padding: 10px;
-  background-color: pink;
-  
 }
 .card-img{
   height: 170px;
-  background-color: lavender;
 }
 .card-title{
   text-align: center;
   margin: 10px auto;
   font-size: 0.9em;
   font-weight: 700;
-  border: 1px solid green;
 }
 .card-subtitle{
   text-align: center;
   margin: 10px auto;
   font-size: 0.7em;
   color: #74767a;
-  border: 1px solid blue;
 }
 
-
+.row-created{
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+h2{ 
+  padding: 0 10px;
+}
+h6{ 
+  padding: 10px;
+  color: #74767a;
+}
 
 footer{
   background-color: #242424;
