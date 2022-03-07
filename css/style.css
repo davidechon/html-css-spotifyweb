@@ -26,7 +26,38 @@ body{
 aside{
   width: 230px;
   background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
 }
+aside .logo img{
+  height: 40px;
+  margin: 10px 5px;
+}
+aside ul{
+  margin: 10px 0;
+}
+aside .menu ul li{
+  list-style-type: none;
+  margin: 5px 0;
+}
+aside a{
+  color: #74767a;
+  text-decoration: none;
+  font-weight: 700;
+}
+.aside-a-active{
+  border-left: 2px solid #a4ff2a;
+  font-weight: 700;
+  color: #ffffff;
+}
+aside .icon{
+  height: 30px;
+  vertical-align: middle;
+}
+/*************************************/
 /* Main */
 main{
   width: calc(100% - 230px);
