@@ -7,10 +7,21 @@
 .debug{
   border: 1px solid yellow;
 }
+/* General */
 body{
   background-color: #14181f;
   color: #fffeff;
   font-family: 'Montserrat', sans-serif;
+}
+.horizontal-line{
+  width: 90%;
+  border: 1px solid #747474;
+  margin: auto;
+}
+.verical-line{
+  width: 90%;
+  border-left: 3px solid #a4ff2a;
+  margin: auto;
 }
 /* Wrapper */
 .wrapper{
@@ -28,6 +39,7 @@ aside{
   background-color: #000000;
   color: #ffffff;
   padding: 15px;
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -81,12 +93,63 @@ aside .playlist a{
 }
 .fa-square-plus{
   font-size: 40px;
+  color: #999999;
   vertical-align: middle;
 }
 /* App */
 aside .app{
-  align-self: flex-end;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;;
 }
+
+aside ul{
+  margin: 10px 0;
+}
+aside .app ul li{
+  list-style-type: none;
+  margin: 5px 0;
+  margin-left: 10px;;
+  text-align: left;
+}
+aside .app a{
+  color: #74767a;
+  text-decoration: none;
+  font-weight: 700;
+}
+aside .app .aside-app-a-active{
+  font-weight: 700;
+  color: #ffffff;
+}
+
+aside .app .icon {
+  height: 15px;
+  vertical-align: middle;
+}
+aside .app .icon img{
+  height: 25px;
+  vertical-align: middle;
+}
+aside .app .profile{
+  color: #ffffff;
+  background-color: #747474;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*************************************/
 /* Main */
 main{
