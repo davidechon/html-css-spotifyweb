@@ -83,22 +83,41 @@ nav.top .btn{
   padding-top: 90px;
   padding: 20px;
 }
+
 .row{
   border: 1px solid red;
-  height: 300px;
+  height: 280px;
   width: 100%;
-}
-.row.cards{
-  border: 1px solid red;
-  height: 260px;
-  width: 100%;
+  overflow: hidden;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
-.card-img{
-  width: 175px;
-  height: 175px;
+.card{
+  width: 190px;
+  height: 280px;
+  padding: 10px;
   background-color: pink;
+  
+}
+.card-img{
+  height: 170px;
+  background-color: lavender;
+}
+.card-title{
+  text-align: center;
+  margin: 10px auto;
+  font-size: 0.9em;
+  font-weight: 700;
+  border: 1px solid green;
+}
+.card-subtitle{
+  text-align: center;
+  margin: 10px auto;
+  font-size: 0.7em;
+  color: #74767a;
+  border: 1px solid blue;
 }
 
 
