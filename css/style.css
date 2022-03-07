@@ -22,7 +22,7 @@ body{
   height: calc(100% - 90px);
   display: flex;
 }
-/* Aside */
+/* Aside - Logo -  Menu - Playlist - App */
 aside{
   width: 230px;
   background-color: #000000;
@@ -32,10 +32,12 @@ aside{
   flex-flow: column nowrap;
   justify-content: flex-start;
 }
+/* Logo */
 aside .logo img{
   height: 40px;
   margin: 10px 5px;
 }
+/* Menu */
 aside ul{
   margin: 10px 0;
 }
@@ -56,6 +58,34 @@ aside a{
 aside .icon{
   height: 30px;
   vertical-align: middle;
+}
+/* Playlist */
+aside .playlist{
+  padding: 10px;
+}
+aside .playlist h3{
+  text-transform: uppercase;
+}
+aside .playlist ul{
+  margin: 10px 0;
+}
+aside .playlist ul li{
+  list-style-type: none;
+  margin: 15px 0;
+  font-size: 14px;
+}
+aside .playlist a{
+  color: #74767a;
+  text-decoration: none;
+  font-weight: 700;
+}
+.fa-square-plus{
+  font-size: 40px;
+  vertical-align: middle;
+}
+/* App */
+aside .app{
+  align-self: flex-end;
 }
 /*************************************/
 /* Main */
