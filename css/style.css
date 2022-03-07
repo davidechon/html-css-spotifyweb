@@ -81,8 +81,28 @@ nav.top .btn{
 .main-content{
   width: 100%;
   padding-top: 90px;
-  
+  padding: 20px;
 }
+.row{
+  border: 1px solid red;
+  height: 300px;
+  width: 100%;
+}
+.row.cards{
+  border: 1px solid red;
+  height: 260px;
+  width: 100%;
+  display: flex;
+
+}
+.card-img{
+  width: 175px;
+  height: 175px;
+  background-color: pink;
+}
+
+
+
 footer{
   background-color: #242424;
   height: 90px;
