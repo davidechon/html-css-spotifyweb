@@ -74,7 +74,6 @@ Breakpoint           | Class infix | Dimension
     background-color: #747474;
     border-radius: 50%;
   }
-  /***************************************/
   /* Main */
   main{
   width: calc(100% - 40px);
@@ -117,12 +116,55 @@ Breakpoint           | Class infix | Dimension
   .row-popular .card-img{
     padding: 10px;
   }
-
-  /**************************************/
-
   /* Footer */
-  .footer{
-    
+  /* Footer-left */
+  .footer-left{
+    max-width: 130px;
+    position: relative;
+    border: 1px solid yellow;
   }
-  
+  .footer-left img{
+    /* position: absolute; */
+    max-width: 30px;
+    max-height: 30px;
+    /* left: 5px; */
+  }
+  .footer-left .on-air{
+    border: 1px solid lime;
+
+  }
+  .footer-left .on-air .author{
+    font-size: 10px;
+  }
+  .footer-left .on-air .brano-name{
+    font-size: 8px;
+  }
+  .footer-icon{
+    border: 1px solid red;
+  }
+  .fa-heart{
+    /* position: relative; */
+    margin: 10px;
+  }
+  .fa-folder{
+    position: relative;
+    margin: 15px;
+  }
+  /* Footer-center */
+  .player-command{
+    max-width: 200px;
+    font-size: 14px;
+    border: 1px solid yellow;
+  }
+  /* Footer-right */
+
+
+
+
+
+
+
+
+
+
 }
