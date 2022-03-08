@@ -71,6 +71,9 @@ aside .icon{
   height: 30px;
   vertical-align: middle;
 }
+.menu-x-small{
+  display: none;
+} /* per media query x-small*/
 /* Playlist */
 aside .playlist{
   padding: 10px;
@@ -96,6 +99,7 @@ aside .playlist a{
   color: #999999;
   vertical-align: middle;
 }
+
 /* App */
 aside .app{
   width: 100%;
