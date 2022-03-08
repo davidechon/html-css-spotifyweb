@@ -262,3 +262,75 @@ footer{
   bottom: 0;
   left: 0;
 }
+/* Play-bar */
+.player-bar{
+  border: 1px solid red;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Footer-left */
+.footer-left{
+  border: 1px solid red;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+}
+.footer-left img{
+  height: 44px;
+  margin: 10px 5px;
+}
+.footer-left .on-air{
+  padding: 20px 10px;
+}
+.footer-left .on-air .author{
+  font-size: 14px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+.footer-left .on-air .brano-name{
+  font-size: 10px;
+  font-weight: 900;
+  color: #999999;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.footer-icon{
+  color: #74767a;
+  margin: 30px 5px;
+}
+
+
+
+/**************************/
+.card{
+  width: 190px;
+  height: 280px;
+  padding: 10px;
+}
+.card-img{
+  height: 170px;
+}
+.card-title{
+  text-align: center;
+  margin: 10px auto;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.card-subtitle{
+  text-align: center;
+  margin: 10px auto;
+  font-size: 0.7em;
+  color: #74767a;
+}
+/**************************/
+
+/* Footer-center */
+.footer-center{
+  border: 1px solid red;
+}
+/* Footer-right */
+.footer-right{
+  border: 1px solid red;
+}
