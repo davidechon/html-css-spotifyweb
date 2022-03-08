@@ -154,9 +154,12 @@ Breakpoint           | Class infix | Dimension
   .player-command{
     max-width: 200px;
     font-size: 14px;
-    border: 1px solid yellow;
   }
   /* Footer-right */
+  .footer-right{
+    max-width: 160px;
+  }
+  
 
 
 
