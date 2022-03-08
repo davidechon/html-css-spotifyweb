@@ -114,7 +114,9 @@ Breakpoint           | Class infix | Dimension
     min-height: 200px;
     padding: 15px;
   }
-  
+  .row-popular .card-img{
+    padding: 10px;
+  }
 
   /**************************************/
 
