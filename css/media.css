@@ -81,16 +81,17 @@ Breakpoint           | Class infix | Dimension
   height: 100%;
   overflow-y: auto;
   }
+  /* Nav-top */
   nav.top{
     width: calc(100% - 40px);
   }
+  /* Row-played */
   .row-played{
     margin-top: 20px;
     height: auto;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
-    
   }
   .card{
     width: 220px;
@@ -99,6 +100,19 @@ Breakpoint           | Class infix | Dimension
   .card-img{
     width: 100%;
     height: 200px;
+  }
+  /* Row-created */
+  .row-created{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-created{
+    min-width: 100px;
+    min-height: 200px;
+    padding: 15px;
   }
   
 
