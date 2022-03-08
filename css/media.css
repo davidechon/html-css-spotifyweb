@@ -34,30 +34,46 @@ Breakpoint           | Class infix | Dimension
     height: 30px;
     background-image: url(../img/logo-small.svg);
     background-position: cover;
-    border: 1px solid yellow;
   }
   /* Menu */
   aside ul{
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 10px;
-    border: 1px solid yellow;
   }
   aside .menu {
     display: none;
   }
-  .menu-x-small{
+  aside .menu-x-small{
     display: block;
   }
   /* Playlist */
   aside .playlist{
     display: none;
   }
-  .playlist-x-small{
-    display: visible;
+  /* App */
+  aside .app-x-small{
+    display: block;
   }
-
-  /**************************************/
-  
+  aside .app{
+    display: none;
+  }
+  aside .app-x-small{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    padding: 0 5px;
+  }
+  aside .app-x-small ul li{
+    list-style-type: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+  aside .app-x-small .profile{
+    color: #ffffff;
+    background-color: #747474;
+    border-radius: 50%;
+  }
   /***************************************/
   /* Main */
   main{
@@ -65,6 +81,8 @@ Breakpoint           | Class infix | Dimension
   height: 100%;
   overflow-y: auto;
   }
+
+  /**************************************/
 
   /* Footer */
   .footer{

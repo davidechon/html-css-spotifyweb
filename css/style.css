@@ -99,7 +99,6 @@ aside .playlist a{
   color: #999999;
   vertical-align: middle;
 }
-
 /* App */
 aside .app{
   width: 100%;
@@ -140,6 +139,9 @@ aside .app .profile{
   background-color: #747474;
   border-radius: 50%;
 }
+aside .app-x-small{
+  display: none;
+} /* per media query x-small*/
 /* Main */
 main{
   width: calc(100% - 230px);
