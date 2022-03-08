@@ -1,5 +1,5 @@
 /* Reset */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +16,7 @@ body{
 .horizontal-line{
   width: 90%;
   border: 1px solid #747474;
-  margin: auto;
+  margin: 10px;
 }
 .verical-line{
   width: 90%;
@@ -101,15 +101,16 @@ aside .app{
   width: 100%;
   position: absolute;
   bottom: 0;
-  left: 0;;
+  left: 0;
+  padding: 10px;
 }
 aside ul{
   margin: 10px 0;
 }
 aside .app ul li{
   list-style-type: none;
-  margin: 5px 0;
-  margin-left: 10px;;
+  margin: 10px 0;
+  margin-left: 10px;
   text-align: left;
 }
 aside .app a{
@@ -126,7 +127,8 @@ aside .app .icon {
   vertical-align: middle;
 }
 aside .app .icon img{
-  height: 25px;
+  height: 30px;
+  margin-right: 5px;
   vertical-align: middle;
 }
 aside .app .profile{
@@ -293,8 +295,6 @@ footer{
   margin: 30px 5px;
 }
 /* Footer-center */
-.footer-center{
-}
 .player-command{
   width: 530px;
   font-size: 18px;
@@ -345,4 +345,43 @@ footer{
 }
 .cmd-right-icon{
   margin-right: 15px;
+}
+/* Media query */
+/***********************************************
+Breakpoint           | Class infix | Dimension
+---------------------|-------------|----------
+[_] player           | none        | height 350
+[_] x-small          | none        | <576px
+[_] small            | sm          | ≥576px
+[_] medium           | md          | ≥768px
+[_] large            | lg          | ≥992px
+***********************************************/
+
+/* Player - height 350 */
+/* @media screen and (height: 350vh){
+  
+}  */
+/* X-small - <576px */
+@media screen and (min-width: 576px){
+  aside{
+    width: 40px;
+    /* background-color: #000000;
+    color: #ffffff; */
+    padding: 5px;
+    /* position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; */
+  }
+  .aside.menu, .playlist{
+    display: none;
+  }
+
+
+  main{
+  width: calc(100% - 40px);
+  height: 100%;
+  overflow-y: auto;
+}
+  
 }
