@@ -136,21 +136,6 @@ aside .app .profile{
   background-color: #747474;
   border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*************************************/
 /* Main */
 main{
   width: calc(100% - 230px);
@@ -238,7 +223,6 @@ h1{
   font-size: 0.7em;
   color: #74767a;
 }
-
 .row-created{
   height: 280px;
   width: 100%;
@@ -254,7 +238,6 @@ h6{
   padding: 10px;
   color: #74767a;
 }
-
 .row-popular{
   height: 280px;
   width: 100%;
@@ -267,6 +250,10 @@ h6{
   border-radius: 50%
 }
 
+
+
+/*************************************/
+/* Footer */
 footer{
   background-color: #242424;
   height: 90px;
