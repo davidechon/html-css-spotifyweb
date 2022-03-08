@@ -377,11 +377,13 @@ Breakpoint           | Class infix | Dimension
     display: none;
   }
 
-
   main{
   width: calc(100% - 40px);
   height: 100%;
   overflow-y: auto;
-}
+  }
+  .footer{
+    
+  }
   
 }
