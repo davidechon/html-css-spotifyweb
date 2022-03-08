@@ -307,14 +307,34 @@ footer{
 
 .player-command{
   width: 530px;
-
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
 }
-
+.player-command .play-icon {
+  vertical-align: middle;
+  margin: 10px;
+}
+.player-command .fa-circle-play{
+  font-size: 30px;
+}
+.progress{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+.progress .time-start, .time-end{
+  margin: 0 20px;
+  font-size: 10px;
+  font-weight: 900;
+}
 #progress-bar{
-  width: 100%;
+  width: 80%;
   height: 5px;
   background-color: #74767a;
   border-radius: 20px;
+  
 }
 #bar{
   width: 20%;
