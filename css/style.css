@@ -228,7 +228,7 @@ h1{
 
   max-width: 180px;
   width: 100%;
-  max-height: 270px; 
+  max-height: 280px; 
   height: 100%;
 }
 .card-img{
@@ -293,33 +293,42 @@ footer{
 }
 /* Footer-left */
 .footer-left{
-  width: 230px;
+  width: 250px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .footer-left img{
+  max-width: 100%;
   height: 44px;
-  margin: 10px 5px;
+  margin: 5px 0;
 }
 .footer-left .on-air{
   padding: 20px 10px;
 }
 .footer-left .on-air .author{
-  font-size: 14px;
+  font-size: 0.9em;
   font-weight: 900;
   vertical-align: middle;
 }
 .footer-left .on-air .brano-name{
-  font-size: 10px;
+  font-size: 0.7em;
   font-weight: 900;
   color: #999999;
-  text-transform: uppercase;
+  text-transform: capitalize;
   vertical-align: middle;
 }
-.footer-icon{
+.footer-left .on-air-icon{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
   color: #74767a;
-  margin: 30px 5px;
+} 
+.footer-left .on-air-icon .footer-icon{
+  margin: 10px;
 }
+
 /* Footer-center */
 .player-command{
   width: 530px;
