@@ -65,25 +65,122 @@ Breakpoint           | Class infix | Dimension
 /* Small - sm - ≥576px  */
 @media screen and (min-width: 576px) and (max-width: 768px){
   body{background-color: red;}
-  /* Menu */
-  .menu-x-small{
-    display: none;
-  } 
-  .menu{
-    display: visible;
-  } 
   
   /* Aside */
-  aside .app-x-small{
+  aside{
+    width: 40px;
+    padding: 5px;
+  }
+  aside .logo img{
     display: none;
-  } 
-  aside .app{
+  }
+  aside .logo{
     display: visible;
-  } 
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/logo-small.svg);
+    background-position: cover;
+  }
+
+  /* Aside Menu */
+  aside ul{
+    margin: 20px 0;
+    font-size: 10px;
+  }
+  aside .menu {
+    display: none;
+  }
+  aside .menu-x-small{
+    display: block;
+  }
+
+  /* Playlist */
+  aside .playlist{
+    display: none;
+  }
+
+  /* App */
+  aside .app-x-small{
+    display: block;
+  }
+  aside .app{
+    display: none;
+  }
+  aside .app-x-small{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    padding: 0 5px;
+  }
+  aside .app-x-small ul li{
+    list-style-type: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+  aside .app-x-small .profile{
+    color: #ffffff;
+    background-color: #747474;
+    border-radius: 50%;
+  }
+
+  /* Main */
+  main{
+  width: calc(100% - 40px);
+  height: 100%;
+  overflow-y: auto;
+  }
+  /* Nav-top  */
+  nav.top{
+    width: calc(100% - 40px);
+  }
 
   /* Main-content */
   .card{
     width: calc((100% / 2) - 3px);
+  }
+
+  /* Footer */
+  /* Footer-left  */
+  .footer-left{
+    width: 20%;
+    margin: 0 10px;
+  }
+  .footer-left img{
+    height: 30px;
+  }
+  .footer-left .on-air .author{
+    font-size: 0.8em;
+  }
+  .footer-left .on-air .brano-name{
+    font-size: 0.6em;
+  }
+  .footer-left .on-air-icon{
+    flex-flow: column nowrap;
+  }
+  .footer-left .on-air-icon .footer-icon{
+    margin: 5px;
+  } 
+  
+  /* Footer-center  */
+  .player-command{
+    max-width: 200px;
+    font-size: 14px;
+  }
+  /* Footer-right  */
+  .footer-right{
+    max-width: 160px;
+  }
+  .cmd-right{
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cmd-right-icon{
+    margin-right: 15px;
   }
  
  
@@ -92,6 +189,120 @@ Breakpoint           | Class infix | Dimension
 /* X-small - <576px */
 @media screen and (min-width: 350px) and (max-width: 576px){
   body{background-color: pink;}
-  
+   /* Aside */
+   aside{
+    width: 40px;
+    padding: 5px;
+  }
+  aside .logo img{
+    display: none;
+  }
+  aside .logo{
+    display: visible;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/logo-small.svg);
+    background-position: cover;
+  }
 
+  /* Aside Menu */
+  aside ul{
+    margin: 20px 0;
+    font-size: 10px;
+  }
+  aside .menu {
+    display: none;
+  }
+  aside .menu-x-small{
+    display: block;
+  }
+
+  /* Playlist */
+  aside .playlist{
+    display: none;
+  }
+
+  /* App */
+  aside .app-x-small{
+    display: block;
+  }
+  aside .app{
+    display: none;
+  }
+  aside .app-x-small{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 5px;
+  }
+  aside .app-x-small ul li{
+    list-style-type: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+  aside .app-x-small .profile{
+    color: #ffffff;
+    background-color: #747474;
+    border-radius: 50%;
+  }
+
+  /* Main */
+  main{
+  width: calc(100% - 40px);
+  height: 100%;
+  overflow-y: auto;
+  }
+  /* Nav-top  */
+  nav.top{
+    width: calc(100% - 40px);
+  }
+
+  /* Main-content */
+  .card{
+    width: calc((100% / 2) - 3px);
+  }
+
+  /* Footer */
+  /* Footer-left  */
+  .footer-left{
+    width: 20%;
+    margin: 0 10px;
+  }
+  .footer-left img{
+    height: 30px;
+  }
+  .footer-left .on-air .author{
+    font-size: 0.8em;
+  }
+  .footer-left .on-air .brano-name{
+    font-size: 0.6em;
+  }
+  .footer-left .on-air-icon{
+    flex-flow: column nowrap;
+  }
+  .footer-left .on-air-icon .footer-icon{
+    margin: 5px;
+  } 
+  
+  /* Footer-center  */
+  .player-command{
+    max-width: 200px;
+    font-size: 14px;
+  }
+  /* Footer-right  */
+  .footer-right{
+    max-width: 160px;
+  }
+  .cmd-right{
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cmd-right-icon{
+    margin-right: 15px;
+  }
 } /* /x-small */
