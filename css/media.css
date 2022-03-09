@@ -2,19 +2,27 @@
 /***********************************************
 Breakpoint           | Class infix | Dimension
 ---------------------|-------------|----------
-[_] player           | none        | height 350
-[_] x-small          | none        | <576px
+[NO] player          | none        | height 350px
+[NI] x-small         | none        | <576px
 [_] small            | sm          | ≥576px
 [_] medium           | md          | ≥768px
 [_] large            | lg          | ≥992px
 ***********************************************/
 
-/* Player - height 350 */
-/* @media screen and (height: 350vh){
-  
-}  */
+
+
+
+/***********************************************/
+/* Player - ≤height 350px */
+@media screen and (max-height: 350px){
+  body{background-color: yellow;}
+} /* /player */
+
 /* X-small - <576px */
-@media screen and (min-width: 576px){
+@media screen and (max-width: 576px){
+  body{
+    background-color: pink;
+  }
   /* Wrapper-content */
   .wrapper-content{
     height: calc(100% - 40px);
@@ -117,39 +125,20 @@ Breakpoint           | Class infix | Dimension
     padding: 10px;
   }
   /* Footer */
+
+  /**************** DA SISTEMARE **********************/
+
   /* Footer-left */
   .footer-left{
-    max-width: 130px;
-    position: relative;
+    max-width: 200px;
+    font-size: 18px;
     border: 1px solid yellow;
   }
-  .footer-left img{
-    /* position: absolute; */
-    max-width: 30px;
-    max-height: 30px;
-    /* left: 5px; */
-  }
-  .footer-left .on-air{
-    border: 1px solid lime;
+  
 
-  }
-  .footer-left .on-air .author{
-    font-size: 10px;
-  }
-  .footer-left .on-air .brano-name{
-    font-size: 8px;
-  }
-  .footer-icon{
-    border: 1px solid red;
-  }
-  .fa-heart{
-    /* position: relative; */
-    margin: 10px;
-  }
-  .fa-folder{
-    position: relative;
-    margin: 15px;
-  }
+/**************************************/
+
+
   /* Footer-center */
   .player-command{
     max-width: 200px;
@@ -159,15 +148,60 @@ Breakpoint           | Class infix | Dimension
   .footer-right{
     max-width: 160px;
   }
+  .cmd-right{
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cmd-right-icon{
+    margin-right: 15px;
+  }
+} /* /x-small */
+
+/* Small - sm - ≥576px */
+@media screen and (min-width: 576px){
+  body{
+    background-color: green;
+  }
+  .wrapper-content{
+    height: calc(100% - 220px);
+  }
+  .menu-x-small{
+    display: none;
+  } 
+  .menu{
+    display: visible;
+  } 
   
+  /* Aside */
+  aside .app-x-small{
+    display: none;
+  } 
+  aside .app{
+    display: visible;
+  } 
+} /* /small */
 
+/* Medium - md - ≥768px */
+@media screen and (min-width: 768px){
+  body{background-color: blue;}
+} /* /medium */
 
-
-
-
-
-
-
-
-
-}
+/* Large - lg - ≥992px */
+@media screen and (min-width: 992px){
+  body{
+    background-color: red;
+  }
+  .row-played{
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+} /* /large */
