@@ -38,7 +38,6 @@ aside{
   width: 230px;
   background-color: #000000;
   color: #ffffff;
-  padding: 15px;
   position: relative;
   display: flex;
   flex-flow: column nowrap;
@@ -47,15 +46,21 @@ aside{
 /* Logo */
 aside .logo img{
   height: 40px;
+  padding-left: 15px;
   margin: 10px 5px;
 }
 /* Menu */
-aside ul{
+aside .menu{
+  padding-left: 15px;
+}
+aside .menu ul{
+  width: 100%;
   margin: 10px 0;
 }
 aside .menu ul li{
   list-style-type: none;
   margin: 5px 0;
+  /* border: 1px solid red; */
 }
 aside a{
   color: #74767a;
@@ -76,8 +81,11 @@ aside .icon{
 } /* per media query x-small*/
 /* Playlist */
 aside .playlist{
-  padding: 10px;
+  padding-left: 15px;
   max-height: 320px;
+  overflow-y: hidden;
+}
+aside .playlist:hover{
   overflow-y: auto;
 }
 aside .playlist h3{
@@ -107,7 +115,7 @@ aside .app{
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px;
+  padding-left: 15px;
 }
 aside ul{
   margin: 10px 0;
@@ -253,6 +261,7 @@ h6{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 }
 .row-popular .card .card-img img{
   border-radius: 50%
