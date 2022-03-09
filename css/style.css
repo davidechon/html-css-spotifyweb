@@ -152,6 +152,7 @@ aside .app .profile{
 aside .app-x-small{
   display: none;
 } /* per media query x-small*/
+
 /* Main */
 main{
   width: calc(100% - 230px);
@@ -204,7 +205,7 @@ nav.top .btn{
 }
 /* Main-content */
 .main-content{
-  width: 100%;
+  max-width: 100%;
   padding-top: 90px;
   padding: 20px;
 }
@@ -212,22 +213,26 @@ h1{
   padding: 10px;
 }
 .row-played{
-  border: 1px solid blue;
-  height: 280px;
-  width: 100%;
-  overflow: hidden;
+  border: 1px solid yellow;
+  min-height: 280px;
+  max-width: 100%;
+  overflow-x: hidden;
   display: flex;
+  flex-flow: row nowrap;
+  /* flex: 1 1 20%; */
   justify-content: space-between;
   align-items: center;
+  gap: 2px;
 }
 .card{
-  border: 1px solid red;
+  border: 1px solid blue;
   width: 250px;
-  height: 280px;
+  min-height: 200px;
   padding: 0px;
 }
 .card-img{
-  height: 170px;
+  width: 100%;
+  height: auto;
 }
 .card-title{
   text-align: center;
