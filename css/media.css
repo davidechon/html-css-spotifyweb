@@ -4,9 +4,9 @@ Breakpoint           | Class infix | Dimension
 ---------------------|-------------|----------
 [NO] player          | none        | height 350px
 [NI] x-small         | none        | <576px
-[_] small            | sm          | ≥576px
-[_] medium           | md          | ≥768px
-[_] large            | lg          | ≥992px
+[NI] small            | sm          | ≥576px
+[OK] medium           | md          | ≥768px
+[OK] large            | lg          | ≥992px
 ***********************************************/
 
 
@@ -14,13 +14,9 @@ Breakpoint           | Class infix | Dimension
 
 /***********************************************/
 /* Player - ≤height 350px */
-@media screen and (max-height: 350px){
+@media screen and (height: 350px){
   body{background-color: yellow;}
 } /* /player */
-
-
-
-/***********************************************/
 
 /***********************************************/
 
@@ -28,32 +24,12 @@ Breakpoint           | Class infix | Dimension
 
 /* Large - lg - ≥992px */
 @media screen and (min-width: 992px) and (max-width: 1200px){
-  body{background-color: limegreen;}
-  /* .row-played{
-    margin-top: 20px;
-    height: 280px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  .card{
-    max-width: 180px;
-    height: auto; 
-  }
-  .card-img{
-    max-width: 100%;
-    height: 180px;
-  } */
+
   
 } /* /large */
 
 /* Medium - md - ≥768px */
 @media screen and (min-width: 768px) and (max-width: 992px){
-  body{background-color: blue;}
   .row-played{
     flex-flow: row wrap;
   }
@@ -63,76 +39,10 @@ Breakpoint           | Class infix | Dimension
 } /* /medium */
 
 /* Small - sm - ≥576px  */
-@media screen and (min-width: 576px) and (max-width: 768px){
-  body{background-color: red;}
-  
-  /* Aside */
-  aside{
-    width: 40px;
-    padding: 5px;
-  }
-  aside .logo img{
-    display: none;
-  }
-  aside .logo{
-    display: visible;
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/logo-small.svg);
-    background-position: cover;
-  }
-
-  /* Aside Menu */
-  aside ul{
-    margin: 20px 0;
-    font-size: 10px;
-  }
-  aside .menu {
-    display: none;
-  }
-  aside .menu-x-small{
-    display: block;
-  }
-
-  /* Playlist */
-  aside .playlist{
-    display: none;
-  }
-
-  /* App */
-  aside .app-x-small{
-    display: block;
-  }
-  aside .app{
-    display: none;
-  }
-  aside .app-x-small{
-    width: 100%;
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    padding: 0 5px;
-  }
-  aside .app-x-small ul li{
-    list-style-type: none;
-    margin: 10px auto;
-    text-align: center;
-  }
-  aside .app-x-small .profile{
-    color: #ffffff;
-    background-color: #747474;
-    border-radius: 50%;
-  }
-
-  /* Main */
-  main{
-  width: calc(100% - 40px);
-  height: 100%;
-  overflow-y: auto;
-  }
+@media screen and (min-width: 576px) and (max-width: 768px){  
   /* Nav-top  */
   nav.top{
-    width: calc(100% - 40px);
+    width: calc(100% - 230px);
   }
 
   /* Main-content */
@@ -183,11 +93,10 @@ Breakpoint           | Class infix | Dimension
     margin-right: 15px;
   }
  
- 
 } /* /small */
 
 /* X-small - <576px */
-@media screen and (min-width: 350px) and (max-width: 576px){
+@media screen and (min-width: 450px) and (max-width: 576px){
   body{background-color: pink;}
    /* Aside */
    aside{
@@ -256,6 +165,10 @@ Breakpoint           | Class infix | Dimension
   /* Nav-top  */
   nav.top{
     width: calc(100% - 40px);
+  }
+  .top-menu ul li{
+    height: 40px;
+    line-height: 40px;
   }
 
   /* Main-content */

@@ -216,20 +216,10 @@ h1{
 /* Row-played */
 .row-played{
   border: 1px solid violet;
-  /* height: 280px; */
-  /* max-width: 100%; */
-  /* overflow: hidden; */
   display: flex;
   flex-flow: row nowrap;
-  /* justify-content: space-between;
-  gap: 1%; */
 }
 .card{
-  /* max-width: 180px; */
-  /* width: 100%; */
-  /* max-height: 280px;  */
-  /* height: 100%; */
-
   width: calc((100% / 6) - 3px);
   text-align: center;
   margin-right: 3px;
@@ -237,7 +227,6 @@ h1{
 }
 .card-img{
   width: 100%;
-  /* max-height: 180px; */
 }
 .card-title{
   text-align: center;
