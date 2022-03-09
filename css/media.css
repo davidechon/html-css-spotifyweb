@@ -20,9 +20,7 @@ Breakpoint           | Class infix | Dimension
 
 /* X-small - <576px */
 @media screen and (max-width: 576px){
-  body{
-    background-color: pink;
-  }
+  /* body{background-color: pink;} */
   /* Wrapper-content */
   .wrapper-content{
     height: calc(100% - 40px);
@@ -163,12 +161,8 @@ Breakpoint           | Class infix | Dimension
 
 /* Small - sm - ≥576px */
 @media screen and (min-width: 576px){
-  body{
-    background-color: green;
-  }
-  .wrapper-content{
-    height: calc(100% - 220px);
-  }
+  /* body{background-color: green;} */
+  
   .menu-x-small{
     display: none;
   } 
@@ -187,14 +181,12 @@ Breakpoint           | Class infix | Dimension
 
 /* Medium - md - ≥768px */
 @media screen and (min-width: 768px){
-  body{background-color: blue;}
+  /* body{background-color: blue;} */
 } /* /medium */
 
 /* Large - lg - ≥992px */
 @media screen and (min-width: 992px){
-  body{
-    background-color: red;
-  }
+  /* body{background-color: red;} */
   .row-played{
     height: 280px;
     width: 100%;

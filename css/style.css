@@ -77,6 +77,8 @@ aside .icon{
 /* Playlist */
 aside .playlist{
   padding: 10px;
+  max-height: 320px;
+  overflow-y: auto;
 }
 aside .playlist h3{
   text-transform: uppercase;
