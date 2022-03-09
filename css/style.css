@@ -60,7 +60,6 @@ aside .menu ul{
 aside .menu ul li{
   list-style-type: none;
   margin: 5px 0;
-  /* border: 1px solid red; */
 }
 aside a{
   color: #74767a;
@@ -215,7 +214,6 @@ h1{
 }
 /* Row-played */
 .row-played{
-  border: 1px solid violet;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -378,3 +376,4 @@ footer{
 .cmd-right-icon{
   margin-right: 15px;
 }
+/* /Style.css */

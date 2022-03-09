@@ -97,7 +97,6 @@ Breakpoint           | Class infix | Dimension
 
 /* X-small - <576px */
 @media screen and (min-width: 450px) and (max-width: 576px){
-  body{background-color: pink;}
    /* Aside */
    aside{
     width: 40px;
