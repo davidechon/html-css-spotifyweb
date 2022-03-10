@@ -206,7 +206,7 @@ nav.top .btn:hover{
 .top-menu{
   text-align: center; 
   padding-top: 90px;
-  border: 10px solid yellow;
+  /* border: 1px solid yellow; */
 }
 .top-menu ul li{
   height: 60px;
@@ -222,30 +222,28 @@ nav.top .btn:hover{
   font-weight: 700;
   text-align: center;
   vertical-align: middle;
-
-  border: 1px solid red;
 }
 .top-menu ul li a:hover{
   color: #ffffff;
+  cursor: pointer;
 }
-/**********************************/
-/* .top-menu ul li a .sub-line{
-  width: 30px;
-  height: 2px;
-  background-color: lime;
+.top-menu .sub-line-on{
+  width: 40%;
+  height: 3px;
+  background-color: #a4ff2a;
   margin: 0 auto;
+  display: block;
   margin-top: -20px;
-  display: none;
 } 
-.top-menu ul li a .sub-line:hover{
-  display: visible;
-}*/
-/**********************************/
+.top-menu li:hover .sub-line{
+  width: 40%;
+  height: 3px;
+  background-color: #a4ff2a;
+  margin: 0 auto;
+  display: block;
+  margin-top: -20px;
+} 
 
-
-.active{
-  border-bottom: 2px solid #a4ff2a;
-}
 /* Main-content */
 .main-content{
   max-width: 100%;
@@ -301,6 +299,7 @@ h1{
   transition: .5s ease;
   display: none;
 }
+/* Card text */
 .card-title{
   text-align: center;
   margin: 10px auto;
