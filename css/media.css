@@ -3,14 +3,11 @@
 Breakpoint           | Class infix | Dimension
 ---------------------|-------------|----------
 [NO] player          | none        | height 350px
-[NI] x-small         | none        | <576px
-[NI] small           | sm          | ≥576px
+[OK] x-small         | none        | <576px
+[OK] small           | sm          | ≥576px
 [OK] medium          | md          | ≥768px
 [OK] large           | lg          | ≥992px
 ***********************************************/
-
-
-
 
 /***********************************************/
 /* Player - ≤height 350px
@@ -20,12 +17,10 @@ Breakpoint           | Class infix | Dimension
 
 /***********************************************/
 
-
-
 /* Large - lg - ≥992px */
 @media screen and (min-width: 992px) and (max-width: 1200px){
   
-
+/* Qui viene usato come default style.css*/
   
 } /* /large */
 
@@ -45,12 +40,10 @@ Breakpoint           | Class infix | Dimension
   nav.top{
     width: calc(100% - 230px);
   }
-
   /* Main-content */
   .card{
     width: calc((100% / 2) - 3px);
   }
-
   /* Footer */
   /* Footer-left  */
   .footer-left{
@@ -72,7 +65,6 @@ Breakpoint           | Class infix | Dimension
   .footer-left .on-air-icon .footer-icon{
     margin: 5px;
   } 
-  
   /* Footer-center  */
   .player-command{
     max-width: 200px;
@@ -93,7 +85,6 @@ Breakpoint           | Class infix | Dimension
   .cmd-right-icon{
     margin-right: 15px;
   }
- 
 } /* /small */
 
 /* X-small - <576px */
@@ -113,7 +104,6 @@ Breakpoint           | Class infix | Dimension
     background-image: url(../img/logo-small.svg);
     background-position: cover;
   }
-
   /* Aside Menu */
   aside ul{
     margin: 20px 0;
@@ -125,12 +115,10 @@ Breakpoint           | Class infix | Dimension
   aside .menu-x-small{
     display: block;
   }
-
   /* Playlist */
   aside .playlist{
     display: none;
   }
-
   /* App */
   aside .app-x-small{
     display: block;
@@ -155,7 +143,6 @@ Breakpoint           | Class infix | Dimension
     background-color: #747474;
     border-radius: 50%;
   }
-
   /* Main */
   main{
   width: calc(100% - 40px);
@@ -170,12 +157,10 @@ Breakpoint           | Class infix | Dimension
     height: 40px;
     line-height: 40px;
   }
-
   /* Main-content */
   .card{
     width: calc((100% / 2) - 3px);
   }
-
   /* Footer */
   /* Footer-left  */
   .footer-left{
@@ -197,7 +182,6 @@ Breakpoint           | Class infix | Dimension
   .footer-left .on-air-icon .footer-icon{
     margin: 5px;
   } 
-  
   /* Footer-center  */
   .player-command{
     max-width: 200px;

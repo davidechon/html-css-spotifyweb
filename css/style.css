@@ -23,10 +23,6 @@ body{
   border-left: 3px solid #a4ff2a;
   margin: auto;
 }
-
-
-
-
 /* Wrapper */
 .wrapper{
   width: 100%;
@@ -124,7 +120,6 @@ aside .playlist ul li a:hover{
 .fa-square-plus:hover{
   color: #ffffff;
 }
-
 /* App */
 aside .app{
   width: 100%;
@@ -171,7 +166,6 @@ aside .app .profile{
 aside .app-x-small{
   display: none;
 } /* per media query x-small*/
-
 /* Main */
 main{
   width: calc(100% - 230px);
@@ -243,8 +237,6 @@ nav.top .btn:hover{
   display: block;
   margin-top: -20px;
 } 
-
-
 /* Main-content */
 .main-content{
   max-width: 100%;
@@ -405,7 +397,6 @@ footer{
 .footer-left .on-air-icon .footer-icon:hover{
   color: #ffffff;
 }
-
 /* Footer-center */
 .player-command{
   width: 530px;
@@ -450,7 +441,6 @@ footer{
   background-color: #fff;
   border-radius: 20px;
 }
-
 .pointer-play .fa-circle{
   position: absolute;
   margin-left: 12%;
@@ -467,7 +457,6 @@ footer{
   background-color: transparent;
   color: #fffeff;
 }
-
 /* Footer-right */
 .footer-right{
   width: 230px;
