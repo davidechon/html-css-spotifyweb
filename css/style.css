@@ -196,6 +196,19 @@ nav.top .btn{
   top: 30%;
   right: 20px;
 }
+nav.top .btn:hover{
+  /* border: 1px solid #ffffff; */
+  /* border-radius:12px; */
+  padding: 10px 30px;
+  /* display: inline-block; */
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+  font-size: 0.8em;
+  /* font-weight: 700; */
+  /* position: absolute; */
+  /* top: 30%; */
+  /* right: 20px; */
+}
 /* Top menu */
 .top-menu{
   text-align: center; 
@@ -377,11 +390,17 @@ footer{
 .player-command .fa-circle-play{
   font-size: 30px;
 }
+.player-command .fa-circle-play:hover{
+  font-size: 40px;
+  line-height: 30px;
+}
 .progress{
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  position: relative;
+  border: 1px solid red;
 }
 .progress .time-start, .time-end{
   margin: 0 20px;
@@ -400,6 +419,21 @@ footer{
   background-color: #fff;
   border-radius: 20px;
 }
+.pointer-play .fa-circle{
+position: absolute;
+margin-left: 13%;
+line-height: 30px;
+bottom: 1%;
+left: 13%;
+color: #fff;
+display: none;
+}
+.bar:hover{
+  background-color: #a4ff2a;
+}
+.bar:hover .fa-circle{
+  display: visible;
+  }
 /* Footer-right */
 .footer-right{
   width: 230px;
