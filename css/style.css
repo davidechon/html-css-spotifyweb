@@ -54,26 +54,27 @@ aside .logo img{
   margin: 10px 5px;
 }
 /* Menu */
-aside .menu{
-  padding-left: 15px;
-}
 aside .menu ul{
   width: 100%;
   margin: 10px 0;
 }
 aside .menu ul li{
-  border: 1px solid yellow;
   list-style-type: none;
   margin: 5px 0;
+  padding-left: 15px;
 }
 aside a{
   color: #74767a;
   text-decoration: none;
   font-weight: 700;
 }
+aside a:hover{
+  color: #ffffff;
+}
 .aside-a-active{
+  margin-left: 0px;
   margin-right: 15px;
-  border-left: 2px solid #a4ff2a;
+  border-left: 3px solid #a4ff2a;
   font-weight: 700;
   color: #ffffff;
 }
@@ -104,16 +105,23 @@ aside .playlist ul li{
   margin: 15px 0;
   font-size: 14px;
 }
-aside .playlist a{
+aside .playlist ul li a{
   color: #74767a;
   text-decoration: none;
   font-weight: 700;
+}
+aside .playlist ul li a:hover{
+  color: #ffffff;
 }
 .fa-square-plus{
   font-size: 40px;
   color: #999999;
   vertical-align: middle;
 }
+.fa-square-plus:hover{
+  color: #ffffff;
+}
+
 /* App */
 aside .app{
   width: 100%;
@@ -135,6 +143,9 @@ aside .app a{
   color: #74767a;
   text-decoration: none;
   font-weight: 700;
+}
+aside .app a:hover{
+  color: #ffffff;
 }
 aside .app .aside-app-a-active{
   font-weight: 700;
@@ -205,6 +216,21 @@ nav.top .btn{
   text-align: center;
   vertical-align: middle;
 }
+.top-menu ul li a:hover{
+  color: #ffffff;
+}
+/* .top-menu ul li a .sub-line{
+  width: 30px;
+  height: 2px;
+  background-color: lime;
+  margin: 0 auto;
+  margin-top: -20px;
+  display: none;
+} 
+.top-menu ul li a .sub-line:hover{
+  display: visible;
+}*/
+
 .active{
   border-bottom: 2px solid #a4ff2a;
 }
@@ -319,6 +345,10 @@ footer{
   text-transform: capitalize;
   vertical-align: middle;
 }
+.footer-left .on-air .brano-name:hover{
+  text-decoration: underline;
+  color: #ffffff;
+}
 .footer-left .on-air-icon{
   display: flex;
   flex-flow: row nowrap;
@@ -328,6 +358,9 @@ footer{
 } 
 .footer-left .on-air-icon .footer-icon{
   margin: 10px;
+}
+.footer-left .on-air-icon .footer-icon:hover{
+  color: #ffffff;
 }
 
 /* Footer-center */
