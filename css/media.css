@@ -4,9 +4,9 @@ Breakpoint           | Class infix | Dimension
 ---------------------|-------------|----------
 [NO] player          | none        | height 350px
 [NI] x-small         | none        | <576px
-[NI] small            | sm          | ≥576px
-[OK] medium           | md          | ≥768px
-[OK] large            | lg          | ≥992px
+[NI] small           | sm          | ≥576px
+[OK] medium          | md          | ≥768px
+[OK] large           | lg          | ≥992px
 ***********************************************/
 
 
