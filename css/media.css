@@ -29,7 +29,7 @@ Breakpoint           | Class infix | Dimension
 } /* /large */
 
 /* Medium - md - ≥768px */
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 991px){
   .row-played{
     flex-flow: row wrap;
   }
@@ -39,7 +39,7 @@ Breakpoint           | Class infix | Dimension
 } /* /medium */
 
 /* Small - sm - ≥576px  */
-@media screen and (min-width: 576px) and (max-width: 768px){  
+@media screen and (min-width: 576px) and (max-width: 767px){  
   /* Nav-top  */
   nav.top{
     width: calc(100% - 230px);
@@ -96,7 +96,7 @@ Breakpoint           | Class infix | Dimension
 } /* /small */
 
 /* X-small - <576px */
-@media screen and (min-width: 450px) and (max-width: 576px){
+@media screen and (min-width: 450px) and (max-width: 575px){
    /* Aside */
    aside{
     width: 40px;
