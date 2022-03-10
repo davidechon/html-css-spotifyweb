@@ -206,7 +206,6 @@ nav.top .btn:hover{
 .top-menu{
   text-align: center; 
   padding-top: 90px;
-  /* border: 1px solid yellow; */
 }
 .top-menu ul li{
   height: 60px;
@@ -228,6 +227,7 @@ nav.top .btn:hover{
   cursor: pointer;
 }
 .top-menu .sub-line-on{
+  color: #ffffff;
   width: 40%;
   height: 3px;
   background-color: #a4ff2a;
@@ -243,6 +243,7 @@ nav.top .btn:hover{
   display: block;
   margin-top: -20px;
 } 
+
 
 /* Main-content */
 .main-content{
@@ -431,7 +432,6 @@ footer{
   align-items: center;
   line-height: 30px;
   position: relative;
-  border: 1px solid red;
 }
 .progress .time-start, .time-end{
   margin: 0 20px;
@@ -450,21 +450,24 @@ footer{
   background-color: #fff;
   border-radius: 20px;
 }
+
 .pointer-play .fa-circle{
-position: absolute;
-margin-left: 13%;
-line-height: 30px;
-bottom: 1%;
-left: 13%;
-color: #fff;
-display: none;
+  position: absolute;
+  margin-left: 12%;
+  line-height: 30px;
+  bottom: 1%;
+  left: 13%;
+  color: transparent;
 }
-.bar:hover{
+.progress-bar:hover .pointer-play{
   background-color: #a4ff2a;
+  color: #fffeff;
 }
-.bar:hover .fa-circle{
-  display: visible;
-  }
+.progress-bar:hover .fa-circle{
+  background-color: transparent;
+  color: #fffeff;
+}
+
 /* Footer-right */
 .footer-right{
   width: 230px;
@@ -476,10 +479,26 @@ display: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border: 1px solid red;
+  position: relative;
 }
 .cmd-right-icon{
   margin-right: 15px;
+}
+.pointer-play-small .fa-circle{
+  position: absolute;
+  margin-left: 35%;
+  line-height: 13px;
+  bottom: 1%;
+  left: 13%;
+  font-size: 10px;
+  color: transparent;
+}
+.cmd-right-icon:hover .pointer-play-small{
+  background-color: #a4ff2a;
+  color: #fffeff;
+}
+.cmd-right-icon:hover .fa-circle{
+  background-color: transparent;
+  color: #fffeff;
 }
 /* /Style.css */
