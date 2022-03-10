@@ -13,10 +13,10 @@ Breakpoint           | Class infix | Dimension
 
 
 /***********************************************/
-/* Player - ≤height 350px */
+/* Player - ≤height 350px
 @media screen and (height: 350px){
   body{background-color: yellow;}
-} /* /player */
+} /player */
 
 /***********************************************/
 
@@ -24,6 +24,7 @@ Breakpoint           | Class infix | Dimension
 
 /* Large - lg - ≥992px */
 @media screen and (min-width: 992px) and (max-width: 1200px){
+  
 
   
 } /* /large */
